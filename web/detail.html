@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in One Minute</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Detalle</h1>
+        </div>
+      </div>
+      <div class="row" id="bookContainer">
+
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <h2>Reseñas</h2>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-8 text-center">
+            <form>
+                <div class="form-group row">
+                  <label for="newReview" class="col-sm-3 col-form-label">Nueva reseña</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="newReview" placeholder="Nueva reseña">
+                  </div>
+                </div>
+              </form>
+              <button id="sendReview" class="btn btn-primary" type="button"> Enviar </button>
+              <a href="login.html" class="btn btn-primary" role="button"> Login </a>
+        </div>
+      </div>
+      <div class="row justify-content-md-center" id="reviewsContainer">
+
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <a href="index.html" class="btn btn-primary" role="button"> Regresar </a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/detail.js"></script>
+  </body>
+</html>
